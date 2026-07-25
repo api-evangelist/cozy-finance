@@ -1,0 +1,29 @@
+generated: '2026-07-18'
+method: probed
+source: live GET probes of /.well-known/* on Cozy Finance hosts
+note: >-
+  Cozy Finance is a Solidity smart-contract protocol with no OAuth/OIDC or REST
+  discovery surface. All /.well-known/ probes returned 404. Absence is valid,
+  expected data; no WellKnown/SecurityTxt pointer is wired.
+hosts:
+- host: https://www.cozy.finance
+  documents:
+  - {path: /.well-known/security.txt, status: 404}
+  - {path: /.well-known/openid-configuration, status: 404}
+  - {path: /.well-known/oauth-authorization-server, status: 404}
+  - {path: /.well-known/api-catalog, status: 404}
+  - {path: /.well-known/ai-plugin.json, status: 404}
+- host: https://csm-docs.cozy.finance
+  documents:
+  - {path: /.well-known/security.txt, status: 404}
+  - {path: /.well-known/openid-configuration, status: 404}
+  - {path: /.well-known/oauth-authorization-server, status: 404}
+  - {path: /.well-known/api-catalog, status: 404}
+  - {path: /.well-known/ai-plugin.json, status: 404}
+- host: https://earn.cozy.finance
+  documents:
+  - {path: /.well-known/security.txt, status: 404}
+  - {path: /.well-known/openid-configuration, status: 404}
+  - {path: /.well-known/oauth-authorization-server, status: 404}
+  - {path: /.well-known/api-catalog, status: 404}
+  - {path: /.well-known/ai-plugin.json, status: 404}
