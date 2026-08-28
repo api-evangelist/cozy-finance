@@ -12,6 +12,18 @@ description: >-
   Coinbase Ventures. The integration surface is Solidity smart contracts
   documented at csm-docs.cozy.finance, with TypeScript / ethers.js developer
   guides; there is no REST or HTTP API.
+deliveryModel:
+  model: unknown
+  open_source: unknown
+  commercial: true
+  callable_host: false
+  label: Delivery model not determined — needs a product licence on record
+  confidence: low
+  source:
+  - pricing
+  - repository-unlicensed
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
