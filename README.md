@@ -64,6 +64,87 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Cozy Finance is a company surfaced as a portfolio company of electric-capital, polychain and added to the API Evangelist network as a stub for enrichment. Sector: defi. This profile is a lead awaiting the enrichment pipeline.
+Cozy Finance is a decentralized finance (DeFi) risk-management protocol that helps onchain protocols unlock safety-seeking capital through composable, institutional-grade coverage. Its Cozy Safety Module (CSM) lets teams deploy onchain safety modules, rewards managers, and controllers that backstop capital against security incidents and market risk, using mechanisms such as tranching (junior/senior yield), reserves, and market-based protection contracts. The protocol is used by teams around protocols such as Euler, Lido, and Aave, and is backed by Polychain Capital, Electric Capital, Dragonfly, and Coinbase Ventures. The integration surface is Solidity smart contracts documented at csm-docs.cozy.finance, with TypeScript / ethers.js developer guides; there is no REST or HTTP API.
 
-Backed by: electric-capital, polychain — https://www.cozy.finance/
+**Areas:** Company · DeFi · Risk Management · Smart Contracts · Ethereum · Insurance · Blockchain · Web3
+
+## Cozy Finance on APIs.io
+
+Everything profiled for Cozy Finance is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/cozy-finance/](https://apis.io/providers/cozy-finance/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Cozy Finance Domain Security](https://apis.io/security/cozy-finance/cozy-finance-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.cozy.finance/)
+- [Documentation](https://csm-docs.cozy.finance/)
+- [Getting started](https://csm-docs.cozy.finance/user-guides/introduction)
+- [Sign up](https://earn.cozy.finance/)
+- [Support](https://discord.com/invite/3HWthTMHDd)
+- [Blog](https://www.cozy.finance/blog)
+- [Terms of service](https://www.cozy.finance/terms)
+- [Privacy policy](https://www.cozy.finance/privacy)
+- [GitHub](https://github.com/Cozy-Finance)
+
+## API Evangelist rating
+
+**Kin Score 19.7** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 55.4 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 2.6 |
+| Developer ergonomics | 38.1 |
+| Access clarity | 34.2 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 12.3** — Insurance
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/cozy-finance/](https://apis.io/providers/cozy-finance/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Cozy Finance: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/cozy-finance/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
